@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <figure class="avatar" style="z-index: 10; position: relative;">
+        <figure class="avatar">
             <img src="img/trodatome(klaud).jpg"
                  alt="Аватар автора с Клодом из Звездных войн"
                  class="img">
@@ -32,7 +32,7 @@
 
     <nav class="main-nav" aria-label="Навигационное меню">
         <ul class="nav-list">
-            <li><a href="#about">О себе</a></li>
+            <li><a href="#about">Навыки</a></li>
             <li><a href="#projects">Фотопроекты</a></li>
             <li><a href="#settings">Настройки съёмки</a></li>
             <li><a href="#contact">Обратная связь</a></li>
@@ -102,19 +102,21 @@
 
             <section id="contact" class="con">
                 <h2>Обратная связь</h2>
-                <div>
-                    <label for="username">Имя</label>
-                    <input id="username" type="text" name="username" placeholder="Никита">
-                </div>
-                <div>
-                    <label for="usermail">Email</label>
-                    <input id="usermail" type="email" name="useremail" placeholder="nik.drozd06@yandex.ru">
-                </div>
-                <div>
-                    <label for="usermessage">Сообщение</label>
-                    <textarea id="usermessage" name="usermessage" placeholder="Здравствуйте, не могли бы вы рассказать о..."></textarea>
-                </div>
-                <button type="button" class="btn">Отправить</button>
+                <form action="#" method="post">
+                    <div>
+                        <label for="username">Имя</label>
+                        <input id="username" type="text" name="username" placeholder="Никита">
+                    </div>
+                    <div>
+                        <label for="usermail">Email</label>
+                        <input id="usermail" type="email" name="useremail" placeholder="nik.drozd06@yandex.ru">
+                    </div>
+                    <div>
+                        <label for="usermessage">Сообщение</label>
+                        <textarea id="usermessage" name="usermessage" placeholder="Здравствуйте, не могли бы вы рассказать о..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
             </section>
         </main>
 
